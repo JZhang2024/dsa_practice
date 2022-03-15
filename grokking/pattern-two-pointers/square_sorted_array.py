@@ -34,6 +34,10 @@ def make_squares(arr):
     
     return result
 
+
+#Time Complexity: O(n) just iterating across length of array from ends to middle
+#Space Complexity: O(n) creating new output array with same length as input array
+
 if __name__ == '__main__':
     
     assert(make_squares([-2, -1, 0, 2, 3]) == [0, 1, 4, 4, 9])
